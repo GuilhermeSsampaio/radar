@@ -114,3 +114,19 @@ h1{
     background-color: blanchedalmond;
     margin-left: 5vw;
 }
+
+@keyframes btn-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+.btn-pisca {
+  color:#fff;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-animation: btn-pisca .9s linear infinite;
+  -moz-animation: btn-pisca .65s linear infinite;
+  -ms-animation: btn-pisca .65s linear infinite;
+  -o-animation: btn-pisca .65s linear infinite;
+  animation: btn-pisca .65s linear infinite;
+}
