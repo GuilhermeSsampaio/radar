@@ -119,6 +119,11 @@ a{
     align-items: center;
 }
 
+#tri{
+    position: absolute;
+    margin-top: 280px;
+}
+
 h1{
     background-color: blanchedalmond;
     margin-left: 5vw;
